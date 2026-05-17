@@ -86,9 +86,8 @@ export default function Footer() {
       <Separator className="bg-white/5" />
       
       {/* Bottom Legal */}
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-bold text-slate-600 tracking-wider">
+      <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-6 flex items-center justify-center text-center text-xs font-bold text-slate-600 tracking-wider">
         <p>© 2026 LuxTronics Inc. All rights reserved.</p>
-        <p className="flex items-center gap-1">Made with <span className="text-rose-500 animate-pulse">❤️</span> in India</p>
       </div>
     </footer>
   );
